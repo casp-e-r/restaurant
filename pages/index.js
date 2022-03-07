@@ -2,6 +2,7 @@ import { Box, VStack } from '@chakra-ui/react'
 import Head from 'next/head'
 import Featured from '../components/Featured'
 import NavBar from '../components/NavBar'
+import Reviews from '../components/Reviews'
 
 // import styles from '../styles/Home.module.css'
 
@@ -21,6 +22,7 @@ export default function Home() {
       <div className="order">
 
       </div>
+      <Reviews/>
       
 
      

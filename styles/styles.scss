@@ -1,15 +1,28 @@
 @import './components/navbar.scss';
 @import './components/featured.scss';
+@import './components/reviews.scss';
+@import './components/ordersList.scss';
+@import './components/item.scss';
+
 
 
 
 @import './pages/index.scss';
+@import './pages/menu.scss';
+
+@import './pages/admin/index.scss';
+@import './pages/admin/items.scss';
+@import './pages/admin/orders.scss';
+
+
 
 
 
 
 body,html{
-    background-color:black;
+    background-color:rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
 }
 
 
