@@ -1,5 +1,6 @@
 import { Box, VStack } from '@chakra-ui/react'
 import Head from 'next/head'
+import Link from 'next/link'
 import Featured from '../components/Featured'
 import NavBar from '../components/NavBar'
 import Reviews from '../components/Reviews'
@@ -20,7 +21,9 @@ export default function Home() {
       </div>
       <Featured/>
       <div className="order">
-
+        <Link href="/menu">
+        <button> kkk</button>
+          </Link>
       </div>
       <Reviews/>
       

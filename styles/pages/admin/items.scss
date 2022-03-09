@@ -1,3 +1,45 @@
 .items{
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.055);
+    .items-header{
+        height:200px;
+        background-color: rgb(74, 74, 228);
+
+    }
+    .items-main{
+        display: flex;
+        background-color: rgba(59, 59, 219, 0.767);
+        width: 100%;
+
+
+        .items-list{
+            justify-items: center;
+            width: 100%;
+            padding:10px ;
+            display:grid;     
+            grid-template-columns: repeat(auto-fill, minmax(290px,1fr));
+        }
+        .item{
+            background-color: rgba(59, 160, 219, 0.767);
+            width: 40%;
+            max-width:400px;
+        }
+    }
+}
+@media screen and (max-width: 900px){
+    .items{
+
+        .items-header{
+    
+        }
+        .items-main{
+            .items-list{
+            }
+            .item{
+                display:none;
+                position: absolute;
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+    }
 }

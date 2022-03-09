@@ -1,9 +1,21 @@
 .admin{
-    display: flex;
     height: 100vh;
-    background-color:cyan;
-    .list{
-        height: 100px;
-        background-color:rgb(61, 61, 95);
+    background-color:rgba(0, 255, 255, 0.527);
+    align-items: center;
+    container{
+        padding:30px;
+        display: flex;
+        flex-grow: 10;
+        height: calc(100% - 60px) ;
+        
+
+
+        .list{
+            // padding:40px;
+            width: 25%;
+            max-width:300px;
+            height: 100%;
+            background-color:rgb(19, 19, 226);
+        }
     }
 }
